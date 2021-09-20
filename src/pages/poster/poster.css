@@ -1,0 +1,57 @@
+.poster{
+    padding-top: 50px;
+}
+
+.posterImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.posterForm{
+    position: relative;
+
+}
+
+.posterFormGroup{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.posterIcon{
+    width: 100%;
+   cursor: pointer;
+}
+
+.posterInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.posterInput:focus{
+    outline: none;
+
+}
+
+.writeText{
+    font-size: 20px;
+    height: 100vw;
+}
+
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
