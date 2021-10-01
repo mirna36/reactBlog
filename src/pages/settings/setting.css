@@ -1,0 +1,73 @@
+.settings{
+    display: flex;
+    
+}
+
+.settingWrapper{
+    flex: 9;
+    padding: 20px;
+    
+}
+
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingUpdateTitle{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(27, 113, 139);
+
+}
+
+.settingDeleteTitle{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: tomato;
+    cursor: pointer;
+}
+
+.settingForm{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 10rem;
+}
+
+.settingProfilePicture{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.settingProfilePicture > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settingPPDownlaod{
+    cursor: pointer;
+}
+
+.settingForm > input {
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px gray;
+}
+
+.settingSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color:teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
