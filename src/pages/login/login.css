@@ -1,0 +1,49 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.pexels.com/photos/6373406/pexels-photo-6373406.jpeg?cs=srgb&dl=pexels-monstera-6373406.jpg&fm=jpg");
+    background-size: cover;
+    
+
+}
+
+.loginTitle{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.loginForm > input{
+    padding: 15px;
+    border: none;
+    border-bottom: solid 1px gray;
+}
+
+.loginButton{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+.registerButton{
+    
+    margin-top: 20px;
+    padding: 10px;
+    background-color:teal;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
